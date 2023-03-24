@@ -1,5 +1,4 @@
-import matplotlib.pyplot as plt
 from kinematika import*
 
-jednoliko(10,1)
-kosi_hitac(50,60)
+jednoliko_gibanje(10,5)
+kosi_hitac(10,5)
