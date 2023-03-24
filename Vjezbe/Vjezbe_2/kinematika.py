@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-def jednoliko(f,m):
+def jednoliko_gibanje(f,m):
     t=[0]
     x=[0]
     v=[0]
@@ -66,5 +66,3 @@ def kosi_hitac(v0, kut):
 
     plt.tight_layout()  
     plt.show()
-
-    jednoliko(10,5)
