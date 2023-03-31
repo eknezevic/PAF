@@ -1,0 +1,2 @@
+print('Za 5.0-4.935 ocekujem 0.065 ,no Python daje',5.0-4.935,'. Razlog tomu je sto memorija ima samo 0 i 1 stanja te Python svaki broj mora pretvoriti u binarni oblik. Zato samo binarne razlomke moze zapisati u konacnoj formi, sve ostalo su aproksimacije. Preciznost aproksimacije ovisi o kolicini memorije rezervirane, za python float to je 64 bita.')
+print('Suma brojeva 0.1+0.2+0.3 je 0.6, no Python daje',0.1+0.2+0.3,'Razlog tomu je sto se pri pretvorbi brojeva u razlomak po bazi 1/2 izgubila preciznost')
