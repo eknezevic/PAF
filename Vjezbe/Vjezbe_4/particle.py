@@ -26,7 +26,7 @@ class Particle:
             self.__move()
         return max(self.xlista)
     
-    def plot_trajectory(self,):
+    def plot_trajectory(self):
         plt.plot(self.xlista,self.ylista)
         plt.title('Putanja u x-y ravnini')
         plt.xlabel('x [m]')

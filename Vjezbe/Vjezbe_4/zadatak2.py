@@ -12,7 +12,7 @@ for i in range(100):
     relativna_greska.append(abs(p1.analiticki()-p1.range())/p1.analiticki()*100)
 
 plt.plot(t, relativna_greska)
-plt.title('Ovisnost relativne pogreške')
+plt.title('Ovisnost relativne pogreske')
 plt.xlabel('∆t [s]')
 plt.ylabel('Apsolutna relativna pogreska')
 plt.show()
