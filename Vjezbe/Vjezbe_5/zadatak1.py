@@ -32,7 +32,7 @@ plt.legend()
 plt.subplot(2, 1, 2)
 for e in dx:
     x, y = cal.d_u_intervalu(kubna, -1, 1, e, False)
-    plt.scatter(x, y, s=9, label=e)
+    plt.scatter(x,y, s=9, label=e)
 
 x=np.arange(-1, 1, 0.01)
 y = 3*x**2

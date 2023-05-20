@@ -27,7 +27,7 @@ def integr(f, a, b, N):
     for x in interval:
         g_medja+=f(x+dx)*dx
         d_medja+=f(x)*dx
-    return g_medja, d_medja
+    return g_medja,d_medja
 
 def trapezna_integr(f, a, b, N):
     dx=abs((b-a)/N)

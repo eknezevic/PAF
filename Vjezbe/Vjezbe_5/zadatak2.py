@@ -17,7 +17,7 @@ g_medja=[]
 trapezna=[]
 analiticki=[]
 for n in N:
-    analiticki.append(-(np.cos(b)-np.cos(a)))
+    analiticki.append(-(np.cos(b) -np.cos(a)))
     g_medja.append(cal.integr(sinus, a, b, n)[0])
     d_medja.append(cal.integr(sinus, a, b, n)[1])
     trapezna.append(cal.trapezna_integr(sinus, a, b, n))
