@@ -1,5 +1,5 @@
 import numpy as np
-from emf_putanja import Putanja
+from emf import Putanja
 import matplotlib.pyplot as plt
 
 elektron=Putanja(1,-1,1,1,1)
@@ -17,4 +17,3 @@ ax.set_ylabel('y [m]')
 ax.set_zlabel('z [m]')
 ax.legend()
 plt.show()
-
